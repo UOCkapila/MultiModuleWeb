@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="userWeb:war exploded">
+    <output-path>$PROJECT_DIR$/userWeb/target/userWeb</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="userWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:3.0-alpha-1" />
+          <element id="archive" name="userJava-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="userJava" />
+          </element>
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/userWeb/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="userWeb/web/Web" />
+    </root>
+  </artifact>
+</component>
